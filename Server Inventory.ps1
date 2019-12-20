@@ -19,8 +19,6 @@
     PS C:\> "Server Inventory.ps1" -Manual
 #>
 
-
-[CmdletBinding(DefaultParameterSetName="Manual")]
 Param(
     [Parameter(Mandatory=$false,ParameterSetName="Manual")]
     [switch]$Manual
