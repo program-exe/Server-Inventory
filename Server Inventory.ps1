@@ -10,7 +10,7 @@
     Choose whether manual entry or not to allow crawl of all vCenters 
 .NOTES
   Version:        1.0
-  Author:         <Joshua Dooling>
+  Author:         <>
   Creation Date:  <08/15/2019>
   Purpose/Change: Automate Server Inventory entry
   
@@ -36,7 +36,7 @@ $EntriesAdded = @()
 $EntriesUpdated = @()
 $allVMs = @()
 
-$Zones = @("226","225","227","228")
+$Zones = @("22x","22x","22x","22x")
 
 #region Tag Translation for Owner field
 $Tag = @{
